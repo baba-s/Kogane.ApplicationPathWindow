@@ -20,7 +20,7 @@ manifest.json に上記の記述を追加します
 
 Unity メニューの「Window > Application Path Window」を選択すると  
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929201522.png)  
+![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929202134.png)  
 
 Application.dataPath などの文字列を確認できます  
 クリップボードにコピーしたり、該当フォルダを開くこともできます  
