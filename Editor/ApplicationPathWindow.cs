@@ -4,16 +4,16 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace KoganeUnityLib
+namespace UniApplicationPathWindow
 {
 	internal sealed class ApplicationPathWindow : EditorWindow
 	{
 		private Vector2 m_scrollPos;
 
-		[MenuItem( "Window/Application Path Window" )]
+		[MenuItem( "Window/UniApplicationPathWindow" )]
 		public static void Init()
 		{
-			GetWindow<ApplicationPathWindow>( "Application Path Window" );
+			GetWindow<ApplicationPathWindow>( "UniApplicationPathWindow" );
 		}
 
 		private void OnGUI()
@@ -77,7 +77,7 @@ namespace KoganeUnityLib
 						}
 						catch ( Win32Exception e )
 						{
-							Debug.Log( e.Message );
+							Debug.LogError( e.Message );
 						}
 					}
 
