@@ -1,6 +1,6 @@
 # Uni Application Path Window
 
-* Application.dataPath などで取得できる文字列を一覧で確認できるエディタ拡張
+Application.dataPath などで取得できる文字列を一覧で確認できるエディタ拡張
 
 ## 使い方
 
