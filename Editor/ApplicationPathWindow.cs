@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace UniApplicationPathWindow
+namespace Kogane.Internal
 {
     internal sealed class ApplicationPathWindow : EditorWindow
     {
@@ -13,7 +13,7 @@ namespace UniApplicationPathWindow
         [MenuItem( "Window/Kogane/Application Path" )]
         public static void Init()
         {
-            GetWindow<ApplicationPathWindow>();
+            GetWindow<ApplicationPathWindow>( "Application Path" );
         }
 
         private void OnGUI()
