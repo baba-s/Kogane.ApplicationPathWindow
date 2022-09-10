@@ -10,7 +10,7 @@ namespace Kogane.Internal
     {
         private Vector2 m_scrollPos;
 
-        [MenuItem( "Window/Kogane/Application Path" )]
+        [MenuItem( "Window/Kogane/Application Path", false, 1155431163 )]
         public static void Init()
         {
             GetWindow<ApplicationPathWindow>( "Application Path" );
